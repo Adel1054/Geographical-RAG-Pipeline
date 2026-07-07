@@ -67,7 +67,7 @@ source venv/bin/activate
 Move into the code orchestration directory and pull down required packages:
 ```
 cd app
-pip install requests beautifulsoup4 numpy faiss-cpu sentence-transformers fastapi uvicorn gradio python-dotenv
+pip install -r requirements.txt
 ```
 ### 4. Configure Your API Token
 Create a ```.env``` file in the ```app/``` folder to securely link your inferencing credentials:
