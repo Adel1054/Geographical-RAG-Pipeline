@@ -66,7 +66,6 @@ source venv/bin/activate
 ### 3. Install Dependencies
 Move into the code orchestration directory and pull down required packages:
 ```
-cd app
 pip install -r requirements.txt
 ```
 ### 4. Configure Your API Token
