@@ -86,7 +86,8 @@ python scrape_britannica_articles.py
 ```
 This generates raw text segments under a freshly created ```../data/raw/``` path.
 
-## Step 2: Build the Vector Database IndexCompute semantic dimensions and compile your physical search database file structures:
+## Step 2: Build the Vector Database Index
+Compute semantic dimensions and compile your physical search database file structures:
 ```
 python build_index.py
 ```
@@ -109,4 +110,4 @@ Launches your industrial integration endpoints backed by unified server systems.
 ```
 uvicorn main:app --reload
 ```
-Once active, navigate your browser to http://127.0.0.1:8000/docs to test, explore, and debug live vector schemas via the embedded interactive Swagger OpenAPI panel.
+Once active, navigate your browser to ```http://127.0.0.1:8000/docs``` to test, explore, and debug live vector schemas via the embedded interactive Swagger OpenAPI panel.
