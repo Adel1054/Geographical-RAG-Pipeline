@@ -10,7 +10,7 @@ The project demonstrates production engineering patterns by exposing **three dis
 
 * **Automated Data Ingestion:** Session-optimized web scraping using BeautifulSoup to download and sanitize localized knowledge maps.
 * **Deterministic Filtering:** Supports hybrid semantic search enhanced by exact metadata filtering tags (e.g., matching text properties constrained explicitly to chosen documents).
-* **Advanced Inference Guardrails:** Custom XML prompt bounding (`<context>`, `<question>`) optimized for instruction-tuned reasoning models like DeepSeek-R1.
+* **Advanced Inference Guardrails:** Custom XML prompt bounding (`<context>`, `<question>`) optimized for instruction-tuned reasoning models like Llama-3.3-70B-Instruct-Turbo.
 * **Robust Multi-Interface Layer:** * **CLI:** Low-latency localized console terminal for immediate diagnostic chat loops.
   * **Gradio UI:** Interactive visual web sandbox complete with runtime sliding parameters and visible context block reference mapping.
   * **FastAPI Backend:** Fully asynchronous production gateway exposing vectorized retrieval endpoints accompanied by interactive OpenAPI documentation.
